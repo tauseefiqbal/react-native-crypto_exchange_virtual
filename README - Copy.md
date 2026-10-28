@@ -97,7 +97,7 @@ A modern, full-featured virtual cryptocurrency trading and portfolio management 
 ## 3. Deployment
 
 ### 3.1 Live Application URL
-* **App Live URL:** (APP URL)
+* **App Live URL:** (https://expo.dev/accounts/tauseefiqbal/projects/VCrypto/builds/1bcbff82-2ba7-4f78-9e65-5cd272095290)
 
 ### 3.2 Deployment Instructions
 * **Expo EAS Build (Android APK / AAB):**
@@ -282,7 +282,8 @@ VCrupto-main/
 
 1. **Clone or navigate to the repository:**
    ```bash
-   cd VCrupto-main
+   git clone https://github.com/tauseefiqbal/react-native-crypto_exchange_virtual.git
+   cd react-native-crypto_exchange_virtual
    ```
 
 2. **Install project dependencies:**

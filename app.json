@@ -35,6 +35,11 @@
       "favicon": "./assets/images/favicon.png"
     },
     "description": "Virtual Crypto Investment Platform",
-    "githubUrl": "https://github.com/Savinvadim1312/VCrupto"
+    "githubUrl": "https://github.com/Savinvadim1312/VCrupto",
+    "extra": {
+      "eas": {
+        "projectId": "bce7c39b-3e5f-4c30-ba4d-8d72c6a2a982"
+      }
+    }
   }
 }
