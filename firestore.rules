@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Market coins - read-only for authenticated clients; written only by Cloud Functions / Admin
+    match /coins/{coinId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // User profiles - readable by all authenticated users (required for Rankings / Leaderboard)
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow update: if request.auth != null && request.auth.uid == userId
+                    && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['networth']);
+      allow delete: if false;
+
+      // User's portfolio holdings - only the owner can read and write their balance
+      match /portfolioCoins/{coinId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}
+

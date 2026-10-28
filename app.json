@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "VCrypto",
+    "slug": "VCrypto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "vcrypto",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2F68C1"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "dev.notjust.vcrypto",
+      "buildNumber": "1.0.3",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "dev.notjust.vcrypto",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#2F68C1"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "Virtual Crypto Investment Platform",
+    "githubUrl": "https://github.com/Savinvadim1312/VCrupto"
+  }
+}
