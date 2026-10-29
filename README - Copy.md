@@ -5,41 +5,42 @@ A modern, full-featured virtual cryptocurrency trading and portfolio management 
 ---
 
 ## Table of Contents
-- [1. Features](#1-features)
-  - [1.1 Trading & Simulation Features](#11-trading--simulation-features)
-  - [1.2 Market & Analytics Features](#12-market--analytics-features)
-  - [1.3 User & Authentication Features](#13-user--authentication-features)
-  - [1.4 Platform & Technical Features](#14-platform--technical-features)
-- [2. Tech Stack](#2-tech-stack)
-  - [2.1 Frontend & Mobile](#21-frontend--mobile)
-  - [2.2 Backend & Cloud Infrastructure](#22-backend--cloud-infrastructure)
-  - [2.3 Third-Party APIs & Libraries](#23-third-party-apis--libraries)
-- [3. Deployment](#3-deployment)
-  - [3.1 Live Application URL](#31-live-application-url)
-  - [3.2 Deployment Instructions](#32-deployment-instructions)
-- [4. Test and Admin Users Credentials](#4-test-and-admin-users-credentials)
-  - [4.1 Guest & Demo Access](#41-guest--demo-access)
-  - [4.2 Pre-Configured Test Accounts](#42-pre-configured-test-accounts)
-  - [4.3 Admin User Credentials](#43-admin-user-credentials)
-- [5. How to Use App for Regular User](#5-how-to-use-app-for-regular-user)
-  - [5.1 Getting Started & Registration](#51-getting-started--registration)
-  - [5.2 Browsing Live Crypto Markets](#52-browsing-live-crypto-markets)
-  - [5.3 Viewing Coin Details & Price Charts](#53-viewing-coin-details--price-charts)
-  - [5.4 Executing Buy and Sell Orders](#54-executing-buy-and-sell-orders)
-  - [5.5 Tracking Portfolio & Balance](#55-tracking-portfolio--balance)
-  - [5.6 Viewing Global Leaderboard Rankings](#56-viewing-global-leaderboard-rankings)
-- [6. How to Use App for Admin User](#6-how-to-use-app-for-admin-user)
-  - [6.1 Accessing the Firebase Management Console](#61-accessing-the-firebase-management-console)
-  - [6.2 Managing User Accounts & Balances](#62-managing-user-accounts--balances)
-  - [6.3 Managing Market Coins & Real-Time Sync](#63-managing-market-coins--real-time-sync)
-  - [6.4 Enforcing Database Security Rules](#64-enforcing-database-security-rules)
-- [7. Project Structure](#7-project-structure)
-- [8. Installation & Local Setup](#8-installation--local-setup)
-  - [8.1 Prerequisites](#81-prerequisites)
-  - [8.2 Setup Steps](#82-setup-steps)
-- [9. Environment Variables Configuration](#9-environment-variables-configuration)
-- [10. Available Scripts](#10-available-scripts)
-- [11. License](#11-license)
+- [VCrypto - Virtual Cryptocurrency Trading Platform](#vcrypto---virtual-cryptocurrency-trading-platform)
+  - [Table of Contents](#table-of-contents)
+  - [1. Features](#1-features)
+    - [1.1 Trading \& Simulation Features](#11-trading--simulation-features)
+    - [1.2 Market \& Analytics Features](#12-market--analytics-features)
+    - [1.3 User \& Authentication Features](#13-user--authentication-features)
+    - [1.4 Platform \& Technical Features](#14-platform--technical-features)
+  - [2. Tech Stack](#2-tech-stack)
+    - [2.1 Frontend \& Mobile](#21-frontend--mobile)
+    - [2.2 Backend \& Cloud Infrastructure](#22-backend--cloud-infrastructure)
+    - [2.3 Third-Party APIs \& Libraries](#23-third-party-apis--libraries)
+  - [3. Deployment](#3-deployment)
+    - [3.1 Live Application URL](#31-live-application-url)
+    - [3.2 Deployment Instructions](#32-deployment-instructions)
+  - [4. Test and Admin Users Credentials](#4-test-and-admin-users-credentials)
+    - [4.1 Guest \& Demo Access](#41-guest--demo-access)
+    - [4.2 Pre-Configured Test Accounts](#42-pre-configured-test-accounts)
+  - [5. How to Use App for Regular User](#5-how-to-use-app-for-regular-user)
+    - [5.1 Getting Started \& Registration](#51-getting-started--registration)
+    - [5.2 Browsing Live Crypto Markets](#52-browsing-live-crypto-markets)
+    - [5.3 Viewing Coin Details \& Price Charts](#53-viewing-coin-details--price-charts)
+    - [5.4 Executing Buy and Sell Orders](#54-executing-buy-and-sell-orders)
+    - [5.5 Tracking Portfolio \& Balance](#55-tracking-portfolio--balance)
+    - [5.6 Viewing Global Leaderboard Rankings](#56-viewing-global-leaderboard-rankings)
+  - [6. How to Use App for Admin User](#6-how-to-use-app-for-admin-user)
+    - [6.1 Accessing the Firebase Management Console](#61-accessing-the-firebase-management-console)
+    - [6.2 Managing User Accounts \& Balances](#62-managing-user-accounts--balances)
+    - [6.3 Managing Market Coins \& Real-Time Sync](#63-managing-market-coins--real-time-sync)
+    - [6.4 Enforcing Database Security Rules](#64-enforcing-database-security-rules)
+  - [7. Project Structure](#7-project-structure)
+  - [8. Installation \& Local Setup](#8-installation--local-setup)
+    - [8.1 Prerequisites](#81-prerequisites)
+    - [8.2 Setup Steps](#82-setup-steps)
+  - [9. Environment Variables Configuration](#9-environment-variables-configuration)
+  - [10. Available Scripts](#10-available-scripts)
+  - [11. License](#11-license)
 
 ---
 
@@ -130,12 +131,6 @@ Use the **"Sign In or Register with Email"** button on the Welcome screen:
 | **Trader 2 (Pro)** | `vitalik@ethereum.org` | `Crypto123!` | \$980,500.00 |
 | **Trader 3 (Standard)** | `alex@vcrupto.com` | `Crypto123!` | \$215,400.00 |
 | **Trader 4 (Starter)** | `trader@vcrupto.com` | `Crypto123!` | \$100,000.00 |
-
-### 4.3 Admin User Credentials
-* **Admin Portal:** [Firebase Console](https://console.firebase.google.com/)
-* **Admin Email:** `admin@vcrupto.com`
-* **Admin Initial Password:** `AdminSecure2026!`
-* **Admin Capabilities:** Direct Firestore document editing, balance overrides, user account management, and database rule administration.
 
 ---
 
