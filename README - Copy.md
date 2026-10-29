@@ -318,20 +318,20 @@ Create a `.env` file in the root directory:
 
 ```ini
 # Firebase Client Configuration (EXPO_PUBLIC_ prefix exposes to Expo client)
-EXPO_PUBLIC_FIREBASE_API_KEY=AIzaSyBompcVIwQnLNzJZVHZuBJghKHlWcPW6UQ
+EXPO_PUBLIC_FIREBASE_API_KEY=
 EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=react-native-crypto-exchange.firebaseapp.com
 EXPO_PUBLIC_FIREBASE_PROJECT_ID=react-native-crypto-exchange
 EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=react-native-crypto-exchange.firebasestorage.app
-EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=36205928710
-EXPO_PUBLIC_FIREBASE_APP_ID=1:36205928710:web:1e7ed29e56098a50f53e87
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+EXPO_PUBLIC_FIREBASE_APP_ID=
 
 # Node.js / Server fallback variables
-FIREBASE_API_KEY=AIzaSyBompcVIwQnLNzJZVHZuBJghKHlWcPW6UQ
+FIREBASE_API_KEY=
 FIREBASE_AUTH_DOMAIN=react-native-crypto-exchange.firebaseapp.com
 FIREBASE_PROJECT_ID=react-native-crypto-exchange
 FIREBASE_STORAGE_BUCKET=react-native-crypto-exchange.firebasestorage.app
-FIREBASE_MESSAGING_SENDER_ID=36205928710
-FIREBASE_APP_ID=1:36205928710:web:1e7ed29e56098a50f53e87
+FIREBASE_MESSAGING_SENDER_ID=
+FIREBASE_APP_ID=
 
 # Toggle Local Emulators (true / false)
 EXPO_PUBLIC_USE_FIREBASE_EMULATOR=false
